@@ -1,0 +1,136 @@
+.container__essay-content {
+    padding-right: 36px;
+    padding-bottom: 48px;
+}
+
+
+.container__essay-content img {
+    display: block;
+    width: 100%;
+}
+
+.container__main-content .heading {
+    text-align: justify;
+    font-size: 4rem;
+}
+
+
+.container__content {
+    display: flex;
+}
+
+.container__main-content {
+    flex: 7;
+}
+
+.container__essay-paragraph {
+    text-indent: 32px;
+    text-align: justify;
+}
+
+
+.text {
+    color: #1b1b1b;
+}
+
+.container__essay-topic, .container__essay-head {
+    font-size: 2.2rem;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.container__essay-content .special__smallnews-title {
+    padding: 24px 0 0;
+    font-size: 1.6rem;
+}
+
+.container__essay-source a{
+    text-decoration: none;
+    color: #1b1b1b;
+    transition: color 0.2s;
+}
+
+.container__essay-source a:hover {
+    color: #2568ef;
+}
+.container__essay-content .tag{
+    user-select: none;
+}
+
+
+
+
+
+
+.header__navbar{
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 90px;
+    padding: 0.5%;
+}
+
+.header__navbar-start{
+    float: left;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    justify-content: center;
+}
+
+.header__navbar-logo-text p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #f4fbf8;
+    margin: 0;
+    user-select: none;
+    padding: 0 10px;
+}
+.header__navbar-links{
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header__navbar-link{
+    display: block;
+    color: #f4fafb;
+    text-align: center;
+}
+.header__navbar-item{
+    list-style-type: none;
+    position: relative;
+}
+
+#nav-toggle{
+    position: absolute;
+    top: -100px;
+}
+.header__navbar .icon-burger{
+    position: absolute;
+    display: none;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+.icon-burger .line{
+    width: 25px;
+    height: 3px;
+    background-color: #b80707;
+    margin: 5px;
+    border-radius: 3px;
+}
+.header__navbar-item:hover::after {
+    width: 90%;
+}

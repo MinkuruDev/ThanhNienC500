@@ -177,7 +177,7 @@
 .js-slide--active{
     display: block;
     animation:  slideActiveLeft .7s  ease-in-out 4.3s forwards ;
-    
+    -webkit-animation: slideActiveLeft .7s ease-in-out 4.3s forwards;
 }
 
 

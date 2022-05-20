@@ -27,19 +27,19 @@
                 <input id="nav-toggle" type="checkbox">
                 <ul class="header__navbar-links">
                     <li class="header__navbar-item">
-                        <a href="../index.html" class="header__navbar-link">TRANG CHÍNH</a>
+                        <a href="../index.html" onclick="return hideNav()" class="header__navbar-link">TRANG CHÍNH</a>
                     </li>
                     <li class="header__navbar-item">
-                        <a href="../news_web.html#special" class="header__navbar-link">BÀI VIẾT ĐẶC SẮC</a>
+                        <a href="../news_web.html#special"  onclick="return hideNav()" class="header__navbar-link">BÀI VIẾT ĐẶC SẮC</a>
                     </li>
                     <li class="header__navbar-item">
-                        <a href="../news_web.html#ttn" class="header__navbar-link">BÀI VIẾT VỀ THÁNG THANH NIÊN</a>
+                        <a href="../news_web.html#ttn" onclick="return hideNav()" class="header__navbar-link">BÀI VIẾT VỀ THÁNG THANH NIÊN</a>
                     </li>
                     <li class="header__navbar-item">
-                        <a href="../news_web.html#dhd" class="header__navbar-link">BÀI VIẾT VỀ ĐẠI HỘI ĐOÀN</a>
+                        <a href="../news_web.html#dhd" onclick="return hideNav()" class="header__navbar-link">BÀI VIẾT VỀ ĐẠI HỘI ĐOÀN</a>
                     </li>
                     <li class="header__navbar-item">
-                        <a href="#contact" class="header__navbar-link">LIÊN HỆ VỚI CHÚNG TÔI</a>
+                        <a href="#contact" onclick="return hideNav()" class="header__navbar-link">LIÊN HỆ VỚI CHÚNG TÔI</a>
                     </li>
                 </ul>
                 <label for="nav-toggle" class="icon-burger">
@@ -585,6 +585,7 @@
 
     </div>
 </body>
+<script src="../assets/js/Nav.js"></script>
 <script>
     // Navbar
     var navbar = document.querySelector('.header__navbar')

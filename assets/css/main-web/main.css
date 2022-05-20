@@ -127,6 +127,7 @@
 .container__intro-slider {
     display: flex;
     overflow: hidden;
+
     
 }
 
@@ -167,8 +168,8 @@
 
 .slide_image-item {
     display: none;
-    animation: slide 8s ease-in-out ;
-    -webkit-animation:slide 20s ease-in-out ;
+    /* animation: slide 8s ease-in-out ;
+    -webkit-animation: slide 8s ease-in-out; */
     position: absolute;
     width: 100%;
 
@@ -177,7 +178,7 @@
 .js-slide--active{
     display: block;
     animation:  slideActiveLeft .7s  ease-in-out 4.3s forwards ;
-    -webkit-animation: slideActiveLeft .7s ease-in-out 4.3s forwards;
+    -webkit-animation: slideActiveLeft .7s ease-in-out 4.3s forwards ; 
 }
 
 
@@ -188,29 +189,48 @@
     -webkit-animation: slideNextLeft .7s ease-in-out 4.3s forwards ; 
 } 
 
-
 @keyframes slideActiveLeft {
     from{
         transform: translateX(0);
+
     }
     to{
-        transform: translateX(-100%);
+        transform:translateX(-100%) ;
     }
-    
-} 
+}
+@-webkit-keyframes slideActiveLeft {
+    from{
+        transform: translateX(0);
+
+    }
+    to{
+        transform:translateX(-100%) ;
+    }
+}
 @keyframes slideNextLeft {
     from{
         transform: translateX(100%);
+
     }
     to{
-        transform: translateX(0);
+        transform:translateX(0) ;
     }
-    
+}
+@-webkit-keyframes slideNextLeft {
+    from{
+        transform: translateX(100%);
+
+    }
+    to{
+        transform:translateX(0) ;
+    }
 }
 
+/* ed */
 
 
-@keyframes slide{
+
+/* @keyframes slide{
     0%{
         transform: translateX(0);
     }
@@ -231,7 +251,7 @@
 
     }
    
-}
+} */
 
 
 .container__news-heading {

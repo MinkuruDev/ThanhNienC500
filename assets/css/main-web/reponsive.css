@@ -28,6 +28,8 @@
         display: block;
        
     }
+    .slide-images{
+    height: 600px;}
 
     .container__intro-content {
         order: 1;
@@ -35,6 +37,8 @@
 
     .container__intro-slider {
         order: 2;
+        width: 100%;
+        height: 100%;
     }
 
     .container__intro-descript {
@@ -173,6 +177,9 @@
         width: 100%;
         
     }
+    .slide-images {
+        height:410px ;
+    }
 
 
 
@@ -249,6 +256,9 @@
     }
     .button-link--ttn-dhd{
         width: 100%;
+    }
+    .slide-images{
+    height: 280px;
     }
 }
 
